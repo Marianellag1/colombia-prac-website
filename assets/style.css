@@ -3,3 +3,38 @@
     padding: 0;
 }
 
+header {
+    background-color: tan;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: .625rem ;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    padding-top: .625rem;
+}
+
+.guatape {
+    max-width: 100%;
+    opacity: 50%;
+}
+
+.navbar {
+    list-style-type: none;
+    padding-right: .625rem;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    font-size: 18px;
+}
