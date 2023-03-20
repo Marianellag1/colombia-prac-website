@@ -7,7 +7,7 @@ header {
     background-color: tan;
     display: grid;
     grid-template-columns: auto auto;
-    padding: .625rem ;
+    padding: .625rem;
 }
 
 ul {
@@ -18,7 +18,7 @@ ul {
 
 .guatape {
     width: 100%;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 .navbar {
@@ -27,7 +27,7 @@ ul {
     cursor: pointer;
 }
 
-.container {
+.wrapper {
     position: relative;
 }
 
@@ -37,4 +37,34 @@ ul {
     right: 50%;
     transform: translate(50%, 50%);
     font-size: 18px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.regiones {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px; /*It was formerly known as grid-column-gap*/
+}
+
+.regiones img {
+    width: 355px;
+    height: 300px;
+}
+
+.polaroid {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.container {
+    text-align: center;
+    padding: 10px 20px;
 }
