@@ -17,13 +17,13 @@ ul {
 }
 
 .guatape {
-    max-width: 100%;
-    opacity: 50%;
+    width: 100%;
+    opacity: 0.3;
 }
 
 .navbar {
     list-style-type: none;
-    padding-right: .625rem;
+    padding-right: 1rem;
     cursor: pointer;
 }
 
