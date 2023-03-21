@@ -45,8 +45,8 @@ footer {
 
 .center {
     position: absolute;
-    top: 40%;
-    right: 50%;
+    bottom: 24%;
+    left: 55%;
     transform: translate(50%, 50%);
     font-size: 18px;
 }
@@ -86,5 +86,6 @@ footer {
 }
 
 .container p {
-    
+    font-family: 'Indie Flower', cursive;
+    font-size: 35px;
 }
